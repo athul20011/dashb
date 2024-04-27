@@ -1,0 +1,49 @@
+{
+    
+    "users": [
+        {
+            "id": 1,
+            "email": "praveentp799@gmail.com",
+            "mobile": 766565656,
+            "username": null,
+            "address1": null,
+            "address2": null,
+            "city": null,
+            "state": null,
+            "pincode": null
+        },
+        {
+            "id": 2,
+            "email": "hameem.codeedex@gmail.com",
+            "mobile": 7867890456,
+            "username": null,
+            "address1": null,
+            "address2": null,
+            "city": null,
+            "state": null,
+            "pincode": null
+        },
+        {
+            "id": 3,
+            "email": "praveen.codeedex@gmail.comm",
+            "mobile": 9598889895,
+            "username": null,
+            "address1": null,
+            "address2": null,
+            "city": null,
+            "state": null,
+            "pincode": null
+        },
+        {
+            "id": 4,
+            "email": "praveen.codeedex@gmail.commm",
+            "mobile": 95988898955,
+            "username": null,
+            "address1": null,
+            "address2": null,
+            "city": null,
+            "state": null,
+            "pincode": null
+        }
+    ]
+}
