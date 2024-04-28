@@ -6,7 +6,11 @@ import { Link, useNavigate } from 'react-router-dom'
 
 function Dashbord() {
   const [records, setrecords] = useState([]);
-
+  // view
+  const viewEmp=async(id)=>{
+    const result2=await axios.get(`${'http://localhost:3032/users'}/${id}`)
+    console.log(result2);
+  }
   useEffect(() => {
     axios.get('http://localhost:3032/users')
       .then(res => {
@@ -15,6 +19,7 @@ function Dashbord() {
       .catch(err => {
         console.log(err);
       });
+
   }, []);
 
   console.log(records);
